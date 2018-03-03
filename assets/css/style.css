@@ -1,0 +1,36 @@
+body{
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
+}
+
+
+.hidden {
+    visibility: hidden;
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+div.container {
+	/*margin: 100px;*/
+	width: 50%;
+	padding: 25px 25px 25px 25px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+	font-weight: bolder;
+}
+
+#p1 {
+	background-color:rgba(255,0,0,0.9);
+}
+
+.jumbotron {
+	background-color: rgba(255,0,0,0.9);
+	padding: 25px 25px 25px 25px;
+}

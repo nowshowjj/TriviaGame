@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TMNT Trivia Up In This!!!</title>
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/js.js"></script>
+
+
+</head>
+<body>
+
+<div class="container" id="start">
+	<div class="jumbotron">
+	<h1>Are you ready for some totally gnarly, awesomely tubular TMNT Trivia?</h1>
+	<button onclick="clock(); document.getElementById('timer').innerHTML='30';">YOU BET I AM!!!</button>
+</div>
+</div>
+
+<div class="container hidden" id="p1" align="center">
+		<h1>Teenage Mutant Ninja Turtles Trivia!</h1>
+		<hr>
+	<div class="timerem">
+
+		<p id="timer">30</p>
+
+	</div>
+			
+		<div>
+		  <h3>Which Ninja Turtle wears red?</h3>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question0" />Leonardo</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="correct" name="question0" />Raphael</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question0" />Michaelangelo</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question0" />Donatello</label>  
+		</div>
+				<br><hr>
+		<div>
+		  <h3>According to the 1987 TMNT cartoon theme song, who taught the turtles to be "ninja teens"?</h3>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question1" />Baxter Stockman</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question1" />The Rat King</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="correct" name="question1" />Splinter</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question1" />April O'Neil</label>  
+		</div>
+				<br><hr>
+		<div>
+		  <h3>Who created the Teenage Mutant Ninja Turtles comic book?</h3>
+		  <label>
+		    <input type="checkbox" class="radio" value="correct" name="question2" />Kevin Eastman</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question2" />Stan Lee</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question2" />Jack Kirby</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question2" />Todd McFarlane</label>  
+		</div>
+				<br><hr>
+		<div>
+		  <h3>What delicious food do the Turtles love?</h3>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question3" />Cereal (Lucky Charms)</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="correct" name="question3" />Pizza ("No anchovies!")</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question3" />Hot Dogs (With ketchup?)</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question3" />Ramen!</label>  
+		</div>
+				<br><hr>
+		<div>
+		  <h3>Who is the leader of The Foot Clan?</h3>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question4" />Krang</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="correct" name="question4" />The Shredder</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question4" />Tatsu</label>
+		  <label>
+		    <input type="checkbox" class="radio" value="wrong" name="question4" />Tokka and Rahzar</label>
+	</div>
+				<br>
+		
+</div>
+
+<div class="container">
+  <div class="jumbotron">
+	<div id="results" class="hidden">
+		<h2>All Done!</h2>
+		<p id="ans1">Correct Answers: </p>
+		<p id="ans2">Incorrect Answers: </p>
+		<p id="ans3">Unanswered: </p>
+	</div>
+  </div>
+</div>
+
+</body>
+</html>
